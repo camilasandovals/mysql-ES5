@@ -10,3 +10,6 @@ db.query("SELECT * FROM customers", (err, data) =>{
     console.table(data);
     db.end();
 });
+
+
+//node .

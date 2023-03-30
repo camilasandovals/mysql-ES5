@@ -14,6 +14,7 @@ CREATE TABLE customers (
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
 -- Add our first customer 
 INSERT INTO customers (firstName, lastName, email, phone) 
 VALUES ('Damian', 'Montero', 'damian@bocacode.com', '976-CODE');
