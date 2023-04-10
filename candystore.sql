@@ -49,3 +49,6 @@ VALUES (1, 19.48, 0.18), (2, 49.26, 3.44)
 SELECT * FROM customers
 JOIN orders ON orders.customerId = customers.customerId
 WHERE firstName = 'Damian';
+
+--How to delete 
+DELETE FROM customers WHERE firstName = 'Camila'
